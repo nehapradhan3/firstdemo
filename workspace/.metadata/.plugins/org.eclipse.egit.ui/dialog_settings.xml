@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="GitCommitMessageComponent">
+		<list key="/home/neha/.git">
+			<item value="false"/>
+			<item value="nehapradhan3 &lt;neha.pradhan@fusemachines.com&gt;"/>
+			<item value="first commit"/>
+			<item value="nehapradhan3 &lt;neha.pradhan@fusemachines.com&gt;"/>
+			<item value="3882f90571fcdf9b54da39e92b0d9c3ca380915f"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="460,480" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

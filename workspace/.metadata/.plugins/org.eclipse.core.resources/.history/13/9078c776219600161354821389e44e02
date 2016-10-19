@@ -1,0 +1,17 @@
+package org.example.ws.web.api;
+
+import java.util.Collection;
+
+import org.example.ws.model.Greeting;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class GreetingContoller {
+	@RequestMapping(value="/api/greetings",method=RequestMethod.GET)
+	public ResponseEntity<Collection<Greeting>>getGreetings(){
+		
+	}
+
+}

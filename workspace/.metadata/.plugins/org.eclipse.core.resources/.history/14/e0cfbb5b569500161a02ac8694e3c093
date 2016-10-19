@@ -1,0 +1,9 @@
+package lynda;
+
+public class Welcomerr {
+	private String welcomer="Hello";
+	public void sayHello(){
+		System.out.println("Hello!!how are you");
+	}
+
+}

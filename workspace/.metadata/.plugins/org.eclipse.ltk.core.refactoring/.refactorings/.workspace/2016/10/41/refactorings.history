@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Test&apos; to &apos;HashMapDemo&apos;" description="Rename resource &apos;Test&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Test" name="HashMapDemo" stamp="1475450950083" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;HashMapDemo&apos; to &apos;testproject&apos;" description="Rename resource &apos;HashMapDemo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/HashMapDemo" name="testproject" stamp="1475451287285" updateReferences="true"/>
+</session>

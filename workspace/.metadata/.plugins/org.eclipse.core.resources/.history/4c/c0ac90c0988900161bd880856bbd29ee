@@ -1,0 +1,9 @@
+package first;
+import java.util.*;
+
+public class SortedSetTest {
+	public static void main(String[]args){
+		SortedSetTest set=new TreeSet();
+	}
+
+}

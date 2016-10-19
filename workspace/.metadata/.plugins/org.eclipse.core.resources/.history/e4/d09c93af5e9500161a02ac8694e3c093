@@ -1,0 +1,11 @@
+package lynda;
+
+public class HelperClass {
+	public static void main(String[] args) {
+		double doublevalue=156.09d;
+		Double doubleObject=new Double(doublevalue);
+		byte byteValue=doubleObject.byteValue();
+		System.out.println(byteValue);
+	}
+
+}
