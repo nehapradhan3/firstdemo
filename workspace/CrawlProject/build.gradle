@@ -1,0 +1,26 @@
+apply plugin: 'eclipse-wtp'
+apply plugin: 'war'
+apply plugin: 'maven'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	
+    compile 'org.jsoup:jsoup:1.8.1'
+   
+   	
+      
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}

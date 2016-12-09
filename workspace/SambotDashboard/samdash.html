@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>2D Animated Jquery/CSS Bar Graph</title>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type='text/javascript'>
+$(document).ready(function(){
+  var number= $(this).index();
+  $('.sec').hide().eq(number).show();
+  $(this).toggleClass('active inactive');
+  $('ul#navigation li').not(this).removeClass('active').addClass('inactive');
+});
+</script>
+$('.sec').not('.first').hide();
+<script src="js/jquery.min.js"></script>
+<script src="js/graph.js"></script>
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="topheading">Sambot Dashboard Bar Graph</div>
+<div id="top-strip"><div><center>
+  <p>Users who asked questions </p>
+  <p>&nbsp;</p>
+</center></div><div id="page-wrap">
+  <ul id="navigation">
+    <li class="active"><a class="button" href="#">By day</a></li>
+    <li class="inactive"><a class="button" href="#">By Month</a></li>
+    <li class="inactive"><a class="button" href="#">By week</a></li>
+
+    </ul>
+    <div id="page-content">
+      <section class="sec">
+        <div id="bargraphbox">
+
+<div class="barmainbox" id="bar1">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar2">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar3">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar4">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar5">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar6">
+  <div class="barbg">
+    <div class="animatedslider">
+      <div class="percentage">0</div>
+      <div class="percentagesign">users</div>
+    </div>
+  </div>
+  <div class="cbox"></div>
+  <div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar7">
+  <div class="barbg">
+    <div class="animatedslider">
+      <div class="percentage">0</div>
+      <div class="percentagesign">users</div>
+    </div>
+  </div>
+  <div class="cbox"></div>
+  <div class="name"></div>
+</div>
+
+</div>
+<script> 
+animated2Dbar('bar1','#89b13a','15/09/2016','12');
+animated2Dbar('bar2','#b13a3a','16/09/2016','31');
+animated2Dbar('bar3','#b13a75','17/09/2016','55');
+animated2Dbar('bar4','#3a7bb1','18/09/2016','63');
+animated2Dbar('bar5','#eb7400','19/09/2016','41');
+animated2Dbar('bar6','#b716ae','20/09/2016','89');
+animated2Dbar('bar7','#19aaa5','15/12/2016','59'); 
+</script>
+      </section>
+      <section class="sec">
+        <p>   </p>
+<div id="bargraphbox">
+
+<div class="barmainbox" id="bar1">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar2">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar3">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar4">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar5">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar6">
+  <div class="barbg">
+    <div class="animatedslider">
+      <div class="percentage">0</div>
+      <div class="percentagesign">users</div>
+    </div>
+  </div>
+  <div class="cbox"></div>
+  <div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar7">
+  <div class="barbg">
+    <div class="animatedslider">
+      <div class="percentage">0</div>
+      <div class="percentagesign">users</div>
+    </div>
+  </div>
+  <div class="cbox"></div>
+  <div class="name"></div>
+</div>
+
+</div>
+<script> 
+animated2Dbar('bar1','#89b13a','15/10/2016-22/10/2016','16');
+animated2Dbar('bar2','#b13a3a','22/10/2016-29/10/2016','12');
+animated2Dbar('bar3','#b13a75','29/10/2016-6/11/2016','10');
+animated2Dbar('bar4','#3a7bb1','6/11/2016-13/11/2016','77');
+animated2Dbar('bar5','#eb7400','13/11/2016-20/11/2016','41');
+animated2Dbar('bar6','#b716ae','20/11/2016-27/11/2016','86');
+animated2Dbar('bar7','#19aaa5','27/11/2016-4/12/2016','10'); 
+</script>
+      </section>
+      <section class="sec">
+        <p>       </p>
+<div id="bargraphbox">
+
+<div class="barmainbox" id="bar1">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar2">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar3">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar4">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar5">
+<div class="barbg">
+<div class="animatedslider">
+  <div class="percentage">0</div>
+  <div class="percentagesign">users</div></div>
+</div>
+<div class="cbox"></div>
+<div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar6">
+  <div class="barbg">
+    <div class="animatedslider">
+      <div class="percentage">0</div>
+      <div class="percentagesign">users</div>
+    </div>
+  </div>
+  <div class="cbox"></div>
+  <div class="name"></div>
+</div>
+
+<div class="barmainbox" id="bar7">
+  <div class="barbg">
+    <div class="animatedslider">
+      <div class="percentage">0</div>
+      <div class="percentagesign">users</div>
+    </div>
+  </div>
+  <div class="cbox"></div>
+  <div class="name"></div>
+</div>
+
+</div>
+<script> 
+animated2Dbar('bar1','#89b13a','15/09/2016','12');
+animated2Dbar('bar2','#b13a3a','16/09/2016','31');
+animated2Dbar('bar3','#b13a75','17/09/2016','10');
+animated2Dbar('bar4','#3a7bb1','18/09/2016','63');
+animated2Dbar('bar5','#eb7400','19/09/2016','41');
+animated2Dbar('bar6','#b716ae','20/09/2016','86');
+animated2Dbar('bar7','#19aaa5','15/12/2016','59'); 
+</script>
+
+      </section>
+    </div>
+  </div><!--page wrap-->
+
+
+
+
+</body>
+</html>
